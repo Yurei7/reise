@@ -24,6 +24,9 @@ body{
     margin: 0 2rem;
     font-size: 18px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .nav-brand {
     font-size: 28px;
@@ -36,6 +39,14 @@ nav {
     justify-content: space-between;
 }
 
+.launch-btn {
+    background-color: #603E20;
+    color: white;
+    padding:15px 35px 15px 35px ;
+    border-radius: 20px;
+    border: 0;
+    font-size: 18px;
+}
 
 /*--------------- HERO ---------------*/
 #hero {
@@ -50,7 +61,7 @@ nav {
 }
 .italy {
     border-radius: 35px;
-    width: 100%;
+    width: 90%;
 }
 .with {
     font-weight: normal;
@@ -81,7 +92,7 @@ nav {
 }
 .discover {
     position: absolute;
-    top: 40%;
+    top: 37%;
     right: 20%;
     width: 300px;
 }
@@ -93,11 +104,12 @@ nav {
 }
 .dot-grid-bottom{
     position: absolute;
-    border-radius: 55px;
+    border-radius: 65px;
     left: 35%;
-    top: 55%;
+    top: 75%;
+    z-index: -1;
 
-}
+} 
 
 .car-img {
     width: 420px;
@@ -136,6 +148,23 @@ nav {
 }
 
 
+.bottom-portion-hero {
+    display: flex;
+    justify-content:space-between;
+}
+.black-circle {
+    max-height: 100px;
+    position: relative;
+    top: 60px;
+
+}
+.plan-a-trip {
+    position: relative;
+    right: 100px;
+    width: 100px;
+    top: 90px;
+    text-decoration: underline;
+}
 
 /*--------------- Features---------------*/
 
@@ -149,4 +178,12 @@ nav {
 .body-hr {
     width: 50px;
     
+}
+
+
+
+@media (max-width:1000px){
+    body {
+        font-size: 50px;
+    }
 }
