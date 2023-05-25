@@ -21,17 +21,18 @@ body{
     justify-content: space-between;
 }
 .nav-item {
-    margin: 0 2rem;
     font-size: 18px;
     list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    flex-direction: row;
+    align-items: center;
+    margin:0 2rem;
 }
 .nav-brand {
     font-size: 28px;
     font-weight: bold;
     list-style: none;
+    margin: 0 10rem 0 0;
 }
 nav {
     display: flex;
@@ -42,10 +43,11 @@ nav {
 .launch-btn {
     background-color: #603E20;
     color: white;
-    padding:15px 35px 15px 35px ;
+    padding:12px 25px 12px 25px ;
     border-radius: 20px;
     border: 0;
     font-size: 18px;
+    cursor: pointer;
 }
 
 
@@ -65,6 +67,7 @@ nav {
 }
 .italy {
     border-radius: 35px;
+    max-width: 90%;
     width: 90%;
 }
 .with {
@@ -91,7 +94,7 @@ nav {
     font-size: 100px;
     margin:0;
     font-weight: lighter;
-    left: -50px;
+    left: -20px;
     top: 23rem;
 }
 .discover {
@@ -218,59 +221,102 @@ margin: 15px 15px;
     margin: 0;
 }
 #features p {
-    font-size: 19px;
+    font-size: 17px;
     width: 300px;
 }
 .icon {
-    width: 90px;
+    width: 70px;
 }
 
 .features-bottom{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 0 150px;
 }
+
 .features-bottom div {
     width: 300px;
 }
 
 .features-top,.features-bottom {
-    margin: 0 3rem 3.3rem 3rem;
+    margin: 0 3rem 2.3rem 3rem;
 }
 
 
 /*--------------- Behind Scenes---------------*/
-
 #behind-scenes {
-    text-align: center;
+    text-align: center;;
+    padding: 0 5rem;
+}
+.behind-scene-content{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
     
 }
-#behind-scenes h2 {
-    font-size: 59px;
-}
-
-#behind-scenes .behind-text {
-    width: 350px;
+.behind-the-scene-paragraph{
+    width: 33%;
     text-align: left;
-    font-size: 18px;
-    
-
+    margin: 0;
+    font-size: 19px;
 }
-#behind-scenes div {
+.compass-nyc-container{
     display: flex;
     flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    position: inherit;relative
+
+}
+.compass-container {
+    width: 80%;
+}
+.nyc-container {
+    width: 70%;
+}
+.bold {
+    font-weight: bold;
+}
+.section-hr {
+    width: 10%;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.behind-the-scenes-title {
+    font-size: 50px;
+}
+.compass-img{
+    width: 100%;
+   
+}
+.nyc-img {
+    width: 100%;
+}
+.kyoto-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
     align-items: center;
 }
-#behind-scenes img {
-position: relative; 
-left: 30%; 
-bottom: 250px;  
-width: 25%;
+.kyoto-img {
+    width: 100%;
 }
-
-
-
+.dot-grid-bs {
+    position: absolute;
+    width: 300px;
+    left: 150px;
+    z-index: -1;
+}
+.hr-behind-scene {
+    width: 100%;
+    border: none;
+    border-bottom: 3px black solid;
+}
 @media (max-width:1000px){
-    body {
-        font-size: 50px;
+    .italy {
+        width: 50%;
     }
 }
