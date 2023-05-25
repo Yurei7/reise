@@ -2,7 +2,8 @@ body{
     font-family: ;
     background-color: #E8EDEB;
     font-weight: ;
-    padding: 0 2rem;
+    padding: 0 0rem;
+    margin: 0;
 }
 
 
@@ -27,12 +28,16 @@ body{
     flex-direction: row;
     align-items: center;
     margin:0 2rem;
+    font-weight: bold;
 }
 .nav-brand {
     font-size: 28px;
     font-weight: bold;
     list-style: none;
-    margin: 0 10rem 0 0;
+    margin: 0 10rem 0 3rem;
+}
+.nav-brand i {
+    font-size: 25px;
 }
 nav {
     display: flex;
@@ -48,6 +53,7 @@ nav {
     border: 0;
     font-size: 18px;
     cursor: pointer;
+    margin-right: 3rem;
 }
 
 
@@ -119,7 +125,7 @@ nav {
 } 
 
 .car-img {
-    width: 420px;
+    width: 500px;
     border-radius: 35px;
     position: relative;
     top: 19rem;
@@ -174,73 +180,57 @@ nav {
 }
 
 /*--------------- Features---------------*/
-
-#features {
-    height: ;
-    text-align: center;
-    font-size: 39px;solid
-    border-top-style: none;
-    border-right-style: solid;
-    border-right-width: 0.9px;
-    border-left-style: solid;
-    border-left-width: 0.9px;
-    border-bottom-style:solid;
-    border-bottom-width:0.5px;
-    border-radius: 35px;
-    margin: 12rem 2.5rem ;
-    
+.features {
+    text-align:center;
+    margin: 5rem 0rem;
+    background-color: #603E20;
+    padding: 2rem 6.5rem 5rem 6.5rem;
+    color: white;
 }
-.features-title {
-    position: relative;
-    bottom: 50px;
-}
-
-.body-hr {
-    border-bottom-style:solid ;
-    width: 15%;
-    position: relative;
-    bottom: 50px;
-    
-}
-
-#features h5 {
-    font-size: 22px;
-}
-.features-top {
+.features-content {
     display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 15px 15px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
 }
-
-.features-top div {
-    width: 300px;
+.feature-item  {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width:260px;
     margin: 0;
+    border: 0.3px solid white;
+    border-radius: 35px;
+    padding: 20px;
+    height: 250px;
 }
-#features p {
-    font-size: 17px;
+.feature-item:hover {
+filter: invert(1);
+background-color: black;
+}
+.features-title {
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+}
+.features-hr {
+    color: white;
+    margin-bottom: 3rem;
+    width: 250px;
+}
+
+.icon  {
+    width: 60px;
+    height: 60px;
+    filter: invert(1);
+}
+
+.feature-item h5 {
+    font-size: 18px;
+    margin: 10px;
     width: 300px;
-}
-.icon {
-    width: 70px;
-}
-
-.features-bottom{
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: space-around;
-   padding: 0 150px;
-}
-
-.features-bottom div {
-    width: 300px;
-}
-
-.features-top,.features-bottom {
-    margin: 0 3rem 2.3rem 3rem;
 }
 
 
