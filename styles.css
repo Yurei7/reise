@@ -1,12 +1,16 @@
-body{
+body {
     font-family: ;
     background-color: #E8EDEB;
     font-weight: ;
     padding: 0 0rem;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-
+.bold {
+    font-weight: bold;
+}
 
 
 
@@ -16,29 +20,36 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 2.5rem 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+
 }
+
 .nav-menu-items {
     display: flex;
     justify-content: space-between;
 }
+
 .nav-item {
     font-size: 18px;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin:0 2rem;
+    margin: 0 2rem;
     font-weight: bold;
 }
+
 .nav-brand {
     font-size: 28px;
     font-weight: bold;
     list-style: none;
     margin: 0 10rem 0 3rem;
 }
+
 .nav-brand i {
     font-size: 25px;
 }
+
 nav {
     display: flex;
     flex-direction: column;
@@ -48,7 +59,7 @@ nav {
 .launch-btn {
     background-color: #603E20;
     color: white;
-    padding:12px 25px 12px 25px ;
+    padding: 12px 25px 12px 25px;
     border-radius: 20px;
     border: 0;
     font-size: 18px;
@@ -67,62 +78,71 @@ nav {
     justify-content: space-between;
 
 }
-.italy-container{
+
+.italy-container {
     display: flex;
     margin: 0;
 }
+
 .italy {
     border-radius: 35px;
     max-width: 90%;
     width: 90%;
 }
+
 .with {
     font-weight: normal;
     font-size: 35px;
 
 }
+
 .main-title {
     font-size: 120px;
     font-weight: normal;
     margin: 0 5rem 0 0;
 }
+
 .hero-hr {
-    border:2.5px solid black ;
-    position :relative;
+    border: 2.5px solid black;
+    position: relative;
     width: 30%;
     bottom: 2.5rem;
-    left:16rem;
+    left: 16rem;
 }
+
 .explore {
     transform: rotate(270deg);
     position: absolute;
     top: 100px;
     font-size: 100px;
-    margin:0;
+    margin: 0;
     font-weight: lighter;
     left: -20px;
     top: 23rem;
 }
+
 .discover {
     position: absolute;
     top: 37%;
     right: 20%;
     width: 300px;
 }
-.dot-grid-top{
+
+.dot-grid-top {
     position: absolute;
     top: 39%;
     right: 35%;
     z-index: -1;
 }
-.dot-grid-bottom{
+
+.dot-grid-bottom {
     position: absolute;
     border-radius: 65px;
     left: 35%;
     top: 75%;
     z-index: -1;
 
-} 
+}
 
 .car-img {
     width: 500px;
@@ -131,6 +151,7 @@ nav {
     top: 19rem;
     left: 5rem;
 }
+
 .circle {
     position: absolute;
     top: 29rem;
@@ -138,39 +159,45 @@ nav {
     z-index: 1;
     width: 25rem;
 }
+
 .hero-text {
     margin-top: 3.3rem;
 
 }
+
 .hero-text p {
-    font-weight:bold;
+    font-weight: bold;
     display: flex;
 }
-.hero-text .start-text{
+
+.hero-text .start-text {
     justify-content: start;
 
 }
-.hero-text .end-text{
+
+.hero-text .end-text {
     justify-content: center;
 
 }
 
 
-.hero-text{
+.hero-text {
     width: 300px;
 }
 
 
 .bottom-portion-hero {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+
 .black-circle {
     max-height: 100px;
     position: relative;
     top: 60px;
 
 }
+
 .plan-a-trip {
     position: relative;
     right: 100px;
@@ -181,132 +208,385 @@ nav {
 
 /*--------------- Features---------------*/
 .features {
-    text-align:center;
+    text-align: center;
     margin: 5rem 0rem;
     background-color: #603E20;
-    padding: 2rem 6.5rem 5rem 6.5rem;
+    padding: 2rem 4.5rem 5rem 4.5rem;
     color: white;
 }
+
 .features-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
-    
+    gap: 12px;
+    flex-wrap: wrap;
+
 }
-.feature-item  {
+
+.feature-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width:260px;
+    max-width: 210px;
     margin: 0;
     border: 0.3px solid white;
     border-radius: 35px;
-    padding: 20px;
-    height: 250px;
+    padding: 18px;
+    height: 240px;
 }
+
 .feature-item:hover {
-filter: invert(1);
-background-color: black;
+    filter: invert(1);
+    background-color: black;
 }
+
 .features-title {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     margin: 0 auto;
 }
+
 .features-hr {
     color: white;
     margin-bottom: 3rem;
-    width: 250px;
+    width: 230px;
 }
 
-.icon  {
+.icon {
     width: 60px;
     height: 60px;
     filter: invert(1);
 }
 
 .feature-item h5 {
-    font-size: 18px;
-    margin: 10px;
+    font-size: 15px;
+    margin: 10px 10px 0 10px;
     width: 300px;
+}
+
+.features p {
+    font-size: 15px;
 }
 
 
 /*--------------- Behind Scenes---------------*/
+
 #behind-scenes {
-    text-align: center;;
-    padding: 0 5rem;
-}
-.behind-scene-content{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    
-}
-.behind-the-scene-paragraph{
-    width: 33%;
-    text-align: left;
+    text-align: center;
+    ;
+    padding: 0 6rem;
     margin: 0;
-    font-size: 19px;
 }
-.compass-nyc-container{
+
+.behind-scene-content {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
     justify-content: center;
-    position: inherit;relative
+    position: relative;
+    margin: 0;
 
 }
-.compass-container {
+
+.behind-the-scene-paragraph {
+    width: 30%;
+    text-align: left;
+    margin: 0 90px;
+    font-size: 18px;
+}
+
+.compass-nyc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+.compass-container,
+.nyc-container {
+    width: 100%;
+
+}
+
+.section-hr {
+    width: 300px;
+    margin: 0px auto 1rem auto;
+    border-bottom: 2px solid black;
+}
+
+.behind-the-scenes-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.compass-img {
+    width: 200px;
+
+}
+
+.nyc-img {
     width: 80%;
 }
-.nyc-container {
-    width: 70%;
-}
-.bold {
-    font-weight: bold;
-}
-.section-hr {
-    width: 10%;
-    border: 0;
-    border-bottom: 1px solid black;
-}
-.behind-the-scenes-title {
-    font-size: 50px;
-}
-.compass-img{
-    width: 100%;
-   
-}
-.nyc-img {
-    width: 100%;
-}
+
 .kyoto-container {
-    width: 25%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+
 }
+
 .kyoto-img {
     width: 100%;
 }
+
 .dot-grid-bs {
     position: absolute;
-    width: 300px;
-    left: 150px;
+    width: 200px;
+    bottom: 0;
+    left: 300px;
     z-index: -1;
 }
+
 .hr-behind-scene {
+    margin-top: 20px;
     width: 100%;
     border: none;
-    border-bottom: 3px black solid;
+    border-bottom: 1px #603E20 solid;
 }
-@media (max-width:1000px){
-    .italy {
-        width: 50%;
-    }
+
+.line-1-5-img {
+    position: relative;
+    top: 50px;
+    width: 120px;
+}
+
+/*--------------- PRICING ---------------*/
+.pricing-section {
+    text-align: center;
+    margin: 5rem 0;
+    padding: 1rem 5rem;
+}
+
+.pricing-section h1 {
+    font-size: 60px;
+    margin: 0;
+}
+.pricing-section h2 {
+    font-size: 30px;
+}
+.pricing-section h3 {
+    font-size: 20px;
+}
+.pricing-hr {
+    width: 200px;
+    margin: 0px auto 0rem auto;
+    border-bottom: 2px solid black;
+}
+
+.cards-div {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    position: relative;
+    margin-top: 5rem;
+
+}
+
+.card {
+    height: 520px;
+    padding: 25px 20px;
+    width: 270px;
+    border-radius: 35px;
+    background-color: white;
+
+}
+
+.card li {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 1rem 0.5rem 1rem 0;
+}
+
+.pricing-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border-width: 0px 1px 0.5px 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 87px;
+    padding: 0 30px 10px 30px;
+}
+
+.explorer {
+    background-image: url(images/eiffel-higher.jpg);
+    background-size: cover;
+
+}
+
+.voyager {
+    background-image: url(images/rome-higher.PNG);
+    background-size: cover;
+}
+
+.pioneer {
+    background-image: url(Images/egypt-higher.PNG);
+    background-size: cover;
+}
+
+.explorer:hover {
+    background-image: url(images/Paris.jpg);
+    background-size: cover;
+}
+
+.content {
+    background-color: white;
+    border-radius: 35px;
+    padding: 10px 15px 10px 10px;
+    margin: 0;
+    height: 500px;
+}
+
+.voyager:hover {
+    background-image: url(images/rome.jpg);
+    background-size: cover;
+}
+
+.pioneer:hover {
+    background-image: url(images/egypt.jpeg);
+    background-size: cover;
+}
+
+.explorer-content{
+    background-image: url(images/eiffel-bw.PNG);
+    background-size: cover;
+}
+.voyager-content{
+    background-image: url(images/rome-bw.PNG);
+    background-size: cover;
+}
+.pioneer-content{
+    background-image: url(images/egypt-bw.PNG);
+    background-size: cover;
+}
+
+.pricing-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.square-grid-1 {
+    position: absolute;
+bottom: 30px;
+left: 300px;
+z-index: -1;
+}
+.square-grid-2 {
+    position: absolute;
+bottom: 30px;
+right: 300px;
+z-index: -1;
+}
+
+/*--------------- CLA ---------------*/
+.cla-div {
+    background-color:#603E20 ;
+   height: 380px;
+   color: white;
+   text-align: center;
+   padding: 3.5rem 0 0rem 0;
+   position: relative;
+   margin: 0;
+}
+.cla-section h2 {
+    font-size: 60px;
+    margin: 1.5rem;
+}
+.cla-hr{
+    width: 250px;
+    border:0;
+    border-bottom: 2px solid white;
+}
+.cla-section h3 {
+    margin: 1.5rem auto 3.5rem auto;
+    font-size: 25px;
+    width: 600px;
+}
+.cla-btn {
+    text-decoration: none;
+    background-color: white;
+    color: #603E20;
+    padding: 1.2rem 3.1rem;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.travel-icon,.luggage-icon,.passport-icon,.plane-icon {
+    width: 80px;
+    position: absolute;
+}
+.plane-icon {
+    right: 250px;
+    bottom: 50px;
+}
+.luggage-icon {
+    left: 250px;
+    bottom: 50px;
+}
+.travel-icon {
+    top: 50px;
+    right: 250px;
+}
+.passport-icon{
+    top: 50px;
+    left: 250px;
+}
+
+
+
+
+/*--------------- ABOUT ---------------*/
+
+
+.about-section {
+    background-color: #D9D9D9;
+    margin: 5rem 0 1rem 0;
+    height: 450px;
+}
+.about-content h2 {
+font-size: 120px;
+margin: 0;
+padding: 2rem 0 1rem 10rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.about-description {
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding-left:3.5rem;
+}
+
+
+
+@media (max-width:1000px) {
+    .features-content {}
 }
