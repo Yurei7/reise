@@ -30,7 +30,7 @@ body {
 }
 
 .nav-item {
-    font-size: 18px;
+    font-size: 15px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -383,12 +383,15 @@ nav {
     font-size: 60px;
     margin: 0;
 }
+
 .pricing-section h2 {
     font-size: 30px;
 }
+
 .pricing-section h3 {
     font-size: 20px;
 }
+
 .pricing-hr {
     width: 200px;
     margin: 0px auto 0rem auto;
@@ -473,15 +476,17 @@ nav {
     background-size: cover;
 }
 
-.explorer-content{
+.explorer-content {
     background-image: url(images/eiffel-bw.PNG);
     background-size: cover;
 }
-.voyager-content{
+
+.voyager-content {
     background-image: url(images/rome-bw.PNG);
     background-size: cover;
 }
-.pioneer-content{
+
+.pioneer-content {
     background-image: url(images/egypt-bw.PNG);
     background-size: cover;
 }
@@ -491,43 +496,49 @@ nav {
     font-weight: bold;
     font-size: 12px;
 }
+
 .square-grid-1 {
     position: absolute;
-bottom: 30px;
-left: 300px;
-z-index: -1;
+    bottom: 30px;
+    left: 300px;
+    z-index: -1;
 }
+
 .square-grid-2 {
     position: absolute;
-bottom: 30px;
-right: 300px;
-z-index: -1;
+    bottom: 30px;
+    right: 300px;
+    z-index: -1;
 }
 
 /*--------------- CLA ---------------*/
 .cla-div {
-    background-color:#603E20 ;
-   height: 380px;
-   color: white;
-   text-align: center;
-   padding: 3.5rem 0 0rem 0;
-   position: relative;
-   margin: 0;
+    background-color: #603E20;
+    height: 380px;
+    color: white;
+    text-align: center;
+    padding: 3.5rem 0 0rem 0;
+    position: relative;
+    margin: 0;
 }
+
 .cla-section h2 {
     font-size: 60px;
     margin: 1.5rem;
 }
-.cla-hr{
+
+.cla-hr {
     width: 250px;
-    border:0;
+    border: 0;
     border-bottom: 2px solid white;
 }
+
 .cla-section h3 {
     margin: 1.5rem auto 3.5rem auto;
     font-size: 25px;
     width: 600px;
 }
+
 .cla-btn {
     text-decoration: none;
     background-color: white;
@@ -538,23 +549,30 @@ z-index: -1;
     font-weight: bold;
 }
 
-.travel-icon,.luggage-icon,.passport-icon,.plane-icon {
+.travel-icon,
+.luggage-icon,
+.passport-icon,
+.plane-icon {
     width: 80px;
     position: absolute;
 }
+
 .plane-icon {
     right: 250px;
     bottom: 50px;
 }
+
 .luggage-icon {
     left: 250px;
     bottom: 50px;
 }
+
 .travel-icon {
     top: 50px;
     right: 250px;
 }
-.passport-icon{
+
+.passport-icon {
     top: 50px;
     left: 250px;
 }
@@ -570,45 +588,52 @@ z-index: -1;
     margin: 5rem 0 1rem 0;
     height: 450px;
 }
+
 .about-content h2 {
-font-size: 120px;
-margin: 0;
-padding: 2rem 0 1rem 10rem;
+    font-size: 120px;
+    margin: 0;
+    padding: 2rem 0 1rem 10rem;
     font-family: 'Montserrat', sans-serif;
 
 
 }
+
 .about-description {
     font-family: 'Montserrat', sans-serif;
     width: 800px;
     margin: 0 auto;
-    padding-left:3.5rem;
+    padding-left: 3.5rem;
 }
 
 /*--------------- footer ---------------*/
-.footer-section{
-    padding: 2rem 7rem;
+.footer-section {
+    padding: 2rem 7rem 0 7rem;
     display: flex;
     flex-direction: column;
 
 }
-.email-signup-section{
+
+.email-signup-section {
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .email-title {
     font-size: 17px;
     font-weight: bold;
 }
+
 .email-desc {
     font-size: 12px;
 }
+
 input {
     border-style: none;
     background-color: #DCE1DF;
     padding: 7px 7px;
 }
+
 .signup-btn {
     border-radius: 25px;
     border-style: none;
@@ -624,17 +649,20 @@ input {
     align-items: start;
     padding-right: 12rem;
 }
+
 .links {
     display: flex;
     gap: 50px;
 }
+
 .footer-links ul li {
     list-style: none;
     margin: 1rem 0;
     font-size: 13.5px;
     font-weight: medium;
 }
-.footer-link-item{  
+
+.footer-link-item {
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -644,12 +672,30 @@ input {
     font-weight: bold;
     font-size: 16.5px;
 }
+
 .reise-footer-desc {
     font-size: 14.5px;
     font-weight: medium;
     width: 220px;
     line-height: 1;
 }
+
+.copyright {
+    font-size: 11px;
+}
+
+.copyright-socials {
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width:1000px) {
     .features-content {}
 }
