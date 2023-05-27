@@ -585,8 +585,71 @@ padding: 2rem 0 1rem 10rem;
     padding-left:3.5rem;
 }
 
+/*--------------- footer ---------------*/
+.footer-section{
+    padding: 2rem 7rem;
+    display: flex;
+    flex-direction: column;
 
+}
+.email-signup-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.email-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.email-desc {
+    font-size: 12px;
+}
+input {
+    border-style: none;
+    background-color: #DCE1DF;
+    padding: 7px 7px;
+}
+.signup-btn {
+    border-radius: 25px;
+    border-style: none;
+    background-color: #603E20;
+    color: white;
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+}
 
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-right: 12rem;
+}
+.links {
+    display: flex;
+    gap: 50px;
+}
+.footer-links ul li {
+    list-style: none;
+    margin: 1rem 0;
+    font-size: 13.5px;
+    font-weight: medium;
+}
+.footer-link-item{  
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.reise-footer-desc {
+    font-size: 14.5px;
+    font-weight: medium;
+    width: 220px;
+    line-height: 1;
+}
 @media (max-width:1000px) {
     .features-content {}
 }
